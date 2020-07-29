@@ -4,6 +4,7 @@ public class user {
     private int id ;
     private String name;
     private int age;
+    private string address;
 
 
     public int getId() {
@@ -38,4 +39,7 @@ public class user {
                 ", age=" + age +
                 '}';
     }
+
+
+
 }
